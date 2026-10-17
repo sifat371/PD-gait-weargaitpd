@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Please cite the associated research paper if you use this code or the study's aggregate results."
+title: "WearGait-PD Site-Confounding Analysis Code"
+authors:
+  - family-names: "Sifat"
+    given-names: "Md."
+  - family-names: "Akter"
+    given-names: "Sania"
+  - family-names: "Islam"
+    given-names: "Akif"
+  - family-names: "Hamid"
+    given-names: "Md. Ekramul"
+repository-code: "https://github.com/sifat371/PD-gait-weargaitpd"
+preferred-citation:
+  type: article
+  title: "When Participant Disjoint Validation Is Not Enough to Establish Generalization in Parkinson's Gait Classification"
+  authors:
+    - family-names: "Sifat"
+      given-names: "Md."
+    - family-names: "Akter"
+      given-names: "Sania"
+    - family-names: "Islam"
+      given-names: "Akif"
+    - family-names: "Hamid"
+      given-names: "Md. Ekramul"
+  year: 2026
+  url: "https://arxiv.org/abs/2610.16220"

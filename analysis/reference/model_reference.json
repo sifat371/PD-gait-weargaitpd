@@ -1,0 +1,149 @@
+{
+  "pooled": [
+    {
+      "model": "Site only",
+      "n": 133,
+      "n_predictors": 2,
+      "auc_mean": 0.9553393665158371,
+      "auc_sd": 0.0026334829353083225,
+      "selected_C_frequencies": {
+        "0.03": 0,
+        "0.1": 0,
+        "0.3": 100,
+        "1.0": 0
+      }
+    },
+    {
+      "model": "Age and sex only",
+      "n": 133,
+      "n_predictors": 2,
+      "auc_mean": 0.7548190045248869,
+      "auc_sd": 0.009495484036013545,
+      "selected_C_frequencies": {
+        "0.03": 0,
+        "0.1": 46,
+        "0.3": 18,
+        "1.0": 36
+      }
+    },
+    {
+      "model": "Site, age, and sex",
+      "n": 133,
+      "n_predictors": 4,
+      "auc_mean": 0.9532692307692308,
+      "auc_sd": 0.004980743734707806,
+      "selected_C_frequencies": {
+        "0.03": 0,
+        "0.1": 0,
+        "0.3": 59,
+        "1.0": 41
+      }
+    },
+    {
+      "model": "159 gait features",
+      "n": 133,
+      "n_predictors": 159,
+      "auc_mean": 0.881628959276018,
+      "auc_sd": 0.013616787850813866,
+      "selected_C_frequencies": {
+        "0.03": 0,
+        "0.1": 20,
+        "0.3": 64,
+        "1.0": 16
+      }
+    },
+    {
+      "model": "Site, age, sex, and gait features",
+      "n": 133,
+      "n_predictors": 163,
+      "auc_mean": 0.9498981900452488,
+      "auc_sd": 0.010705943299936046,
+      "selected_C_frequencies": {
+        "0.03": 0,
+        "0.1": 0,
+        "0.3": 70,
+        "1.0": 30
+      }
+    }
+  ],
+  "richer_covariate_site_prediction": [
+    {
+      "model": "Controls: Measured covariates only",
+      "n": 68,
+      "n_predictors": 4,
+      "auc_mean": 0.8480934479054781,
+      "auc_sd": 0.01240721414981768,
+      "selected_C_frequencies": {
+        "0.03": 0,
+        "0.1": 0,
+        "0.3": 31,
+        "1.0": 69
+      }
+    },
+    {
+      "model": "Controls: Gait features only",
+      "n": 68,
+      "n_predictors": 159,
+      "auc_mean": 0.8827604726100967,
+      "auc_sd": 0.04123707169078515,
+      "selected_C_frequencies": {
+        "0.03": 0,
+        "0.1": 26,
+        "0.3": 52,
+        "1.0": 22
+      }
+    },
+    {
+      "model": "Controls: Measured covariates plus gait",
+      "n": 68,
+      "n_predictors": 163,
+      "auc_mean": 0.8801825993555317,
+      "auc_sd": 0.047616181954040195,
+      "selected_C_frequencies": {
+        "0.03": 0,
+        "0.1": 23,
+        "0.3": 52,
+        "1.0": 25
+      }
+    },
+    {
+      "model": "PD: Measured covariates only",
+      "n": 65,
+      "n_predictors": 8,
+      "auc_mean": 0.7491709183673468,
+      "auc_sd": 0.04130073678540221,
+      "selected_C_frequencies": {
+        "0.03": 1,
+        "0.1": 0,
+        "0.3": 1,
+        "1.0": 98
+      }
+    },
+    {
+      "model": "PD: Gait features only",
+      "n": 65,
+      "n_predictors": 159,
+      "auc_mean": 0.9562499999999998,
+      "auc_sd": 0.017938952542601194,
+      "selected_C_frequencies": {
+        "0.03": 0,
+        "0.1": 9,
+        "0.3": 59,
+        "1.0": 32
+      }
+    },
+    {
+      "model": "PD: Measured covariates plus gait",
+      "n": 65,
+      "n_predictors": 167,
+      "auc_mean": 0.9560586734693877,
+      "auc_sd": 0.01808809432850822,
+      "selected_C_frequencies": {
+        "0.03": 0,
+        "0.1": 9,
+        "0.3": 60,
+        "1.0": 31
+      }
+    }
+  ]
+}

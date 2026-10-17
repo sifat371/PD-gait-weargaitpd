@@ -1,0 +1,3 @@
+diagnostic_group,covariates_auc,covariates_sd,gait_auc,gait_sd,covariates_plus_gait_auc,covariates_plus_gait_sd
+"Controls, Bayview versus VA-Seattle",0.848,0.012,0.883,0.041,0.88,0.048
+"PD, JHOC versus VA-Seattle",0.749,0.041,0.956,0.018,0.956,0.018

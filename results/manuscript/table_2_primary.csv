@@ -1,0 +1,8 @@
+evaluation,model,auc,sd,ci_low,ci_high
+pooled nested CV,Site only,0.955,0.003,,
+pooled nested CV,Age and sex,0.755,0.009,,
+pooled nested CV,"Site, age and sex",0.953,0.005,,
+pooled nested CV,159 gait features,0.882,0.014,,
+pooled nested CV,"Site, age, sex and gait",0.95,0.011,,
+VA participant-averaged OOF,159 gait features,0.668,,0.477,0.836
+JHOC + Bayview to VA stress test,159 gait features,0.576,,0.375,0.77

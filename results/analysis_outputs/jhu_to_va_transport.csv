@@ -1,0 +1,5 @@
+task,model,source,target,n_target,auc,ci_low,ci_high,best_C
+SelfPace,Full 159-feature model,JHOC PD + Bayview controls,VA-Seattle mixed site,35,0.575657894736842,0.37491776315789477,0.7697368421052632,0.3
+SelfPace,Source-selected single feature: Integ. Pressure (p x sec.)__%CV,JHOC PD + Bayview controls,VA-Seattle mixed site,35,0.6710526315789473,0.4703125,0.8519736842105263,
+HurriedPace,Full 159-feature model,JHOC PD + Bayview controls,VA-Seattle mixed site,35,0.4868421052631579,0.2960526315789474,0.6842105263157894,1.0
+HurriedPace,Source-selected single feature: Integ. Pressure (p x sec.)__%CV,JHOC PD + Bayview controls,VA-Seattle mixed site,35,0.5476973684210527,0.3486842105263158,0.7401315789473685,

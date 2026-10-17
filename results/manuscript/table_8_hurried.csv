@@ -1,0 +1,4 @@
+analysis,auc,sd,ci_low,ci_high
+HurriedPace pooled,0.835,0.02,,
+HurriedPace VA repeat-level mean,0.506,0.072,,
+HurriedPace source-to-VA,0.487,,0.296,0.684

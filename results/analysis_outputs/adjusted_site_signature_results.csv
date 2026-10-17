@@ -1,0 +1,7 @@
+diagnosis_group,site_comparison,n,model,auc_mean,auc_sd
+Controls,Bayview vs VA-Seattle,68,Measured covariates only,0.8480934479054781,0.01240721414981768
+Controls,Bayview vs VA-Seattle,68,Gait features only,0.8827604726100967,0.04123707169078515
+Controls,Bayview vs VA-Seattle,68,Measured covariates plus gait,0.8801825993555317,0.047616181954040195
+PD,JHOC vs VA-Seattle,65,Measured covariates only,0.7491709183673468,0.04130073678540221
+PD,JHOC vs VA-Seattle,65,Gait features only,0.9562499999999998,0.017938952542601194
+PD,JHOC vs VA-Seattle,65,Measured covariates plus gait,0.9560586734693877,0.01808809432850822

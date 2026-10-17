@@ -1,0 +1,8 @@
+analysis,auc,delta_auc,ci_low,ci_high
+missingness indicators only,0.486,,,
+157 complete gait features,0.895,,,
+averaged duplicate eligible rows,0.893,,,
+joint site-diagnosis stratification,0.897,,,
+ridge gait only,0.838,,,
+"ridge site, age, sex, gait",0.909,,,
+paired fixed-C added gait,,-0.0002,-0.002,0.0011
