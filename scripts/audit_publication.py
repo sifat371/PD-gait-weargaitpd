@@ -19,7 +19,7 @@ for a,b in zip(pool,ref['pooled']):
     assert abs(float(a['auc_mean'])-b['auc_mean'])<1e-10
     assert abs(float(a['auc_sd'])-b['auc_sd'])<1e-10
 for a,b in zip(sites,ref['richer_covariate_site_prediction']):
-    assert a['model']==b['model']
+    assert a['diagnosis_group'] + ': ' + a['model'] == b['model']
     assert abs(float(a['auc_mean'])-b['auc_mean'])<1e-10
 pub=csvrows('results/manuscript/table_2_primary.csv')
 assert len(pub)==7
